@@ -64,7 +64,8 @@ li .icon_arr {
 
 .cont {
   border-left: 2px #000 solid;
-  height: 100%; }
+  height: 81vh;
+  overflow: auto; }
 
 .top_line_2 {
   text-align: center; }
@@ -75,7 +76,7 @@ li .icon_arr {
   .top_line_2 h2 {
     margin-left: 20px; }
   .top_line_2 h2.rg {
-    margin-left: 55px; }
+    margin-left: 45px; }
 
 select {
   height: 25px;
@@ -110,11 +111,11 @@ select {
 
 .wrap_car {
   display: inline-block;
-  padding: 30px; }
+  padding: 5px; }
   .wrap_car .img {
     width: 250px;
-    height: 230px;
-    overflow: hidden; }
+    height: 200px;
+    overflow: auto; }
 
 .y_in p {
   font-size: 20px;
@@ -154,14 +155,19 @@ select {
     margin-left: 90px; }
 
 .wrp {
-  font-size: 16px; }
+  font-size: 16px;
+  display: inline-block;
+  width: 100%; }
 
 footer {
+  padding: 15px;
   background-color: #FF4132;
-  height: 60px;
+  height: 65px;
   margin: 0;
   background-position: top center;
   border: #000 2px solid; }
+  footer h2 {
+    margin: 0; }
 
 #hidden_form,
 #hidden_form_1 {
@@ -209,3 +215,46 @@ footer {
   border-radius: 3px;
   font-size: 16px;
   width: 100%; }
+
+.wrapp {
+  height: 81vh; }
+
+.r_c h2 {
+  color: blue; }
+
+.r_c span {
+  color: red;
+  position: absolute;
+  right: 0; }
+
+.pho h2 {
+  color: #000;
+  text-align: center; }
+
+.im_s img {
+  display: inline-block;
+  height: 135px;
+  width: 135px;
+  margin: 5px;
+  cursor: pointer; }
+
+.im_s .active {
+  width: 100%;
+  height: 100%;
+  margin: 10px 0; }
+
+.wrapper .tabs .d_1 {
+  position: absolute;
+  right: 100px;
+  top: 5px;
+  background-color: #fff;
+  line-height: 22px;
+  font-size: 14px; }
+
+.wrapper .tabs .d_2 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #fff;
+  line-height: 22px;
+  font-size: 14px; }

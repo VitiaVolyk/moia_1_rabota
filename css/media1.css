@@ -2,52 +2,137 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.y_in p,
+	.descr,
+	.button_wrap_2,
+	.j_a {
+		margin: 0 0 0 35px;
+	}
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
-
+	.img {
+    width: 100%;
+    margin: 0 0 0 35px;
+	}
+	img {
+    
+    width: 100%;
+	}
+	.top_line_2 select, .top_line_2 h2, .top_line_2 p {
+    float: left;
+    margin-left: 9px;
+    margin-right: 9px;
+	}
+	.top_line_2 h2.rg{
+		margin-left: 0;
+	}
+	#ff {
+		height: initial;
+	}
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.s_car ul {
+		width: 100%;
+		margin-bottom: 15px
+	}
+	.s_car li .hid1 {
+    
+    display: inline-block;
+	}
+	.cont {
+    border-left: none;
+	}
+	.tr{
+		border-bottom: 2px #000 solid;
+	}
+	.s_car li .hid1 {
+    margin-left: 40px;
 	
-
+	}
+	.y_in p,
+	.descr,
+	.button_wrap_2,
+	.j_a {
+		margin: 0;
+	}
+	.top_line_2 select, .top_line_2 h2, .top_line_2 p {
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+	}
+	.top_line_2 h2.rg{
+		margin-left: 0;
+	}
+}
 @media only screen and (max-width : 600px) {
-	h1 {
-		font-size: 16px;
+	.icon{
 		height: 60px;
 	}
-	
-header .top_line h1 {
-		margin-left: 30px;
+	h1 {
+		font-size: 16px;
+		height: 40px;
 		
+
+	}
+	
+	header .top_line h1 {
+		margin-left: 30px;
+		padding: 20px 0px 0px 15px;
 	}
 	a {
 		font-size: 14px;
 		
 	}
-	
+	.top_line_2 h2{
+		display: inline-block;
+		width: 95%;
+	}
+	.top_line_2 h2.rg{
+		margin-left: 0;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	.icon{
+		height: 60px;
+	}
 	h1 {
 		font-size: 16px;
 		
+	}
+	header .top_line h1 {
+		margin-left: 30px;
+		padding: 8px;
+	}
+	a {
+		font-size: 14px;
+		
+	}
+	.top_phone .wrapper .tab {
+		margin: 0;
+	}	
+	.img {
+    width: 100%;
+    margin: 0;
 	}
 	
-	a {
-		font-size: 14px;
-		
-	}
-.top_phone .wrapper .tab {
-	margin: 0;
-}	
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+	.icon{
+		height: 60px;
+	}
 	h1 {
 		font-size: 16px;
+		
+	}
+	header .top_line h1 {
 		margin-left: 30px;
+		
 	}
 	a {
 		font-size: 14px;
@@ -56,6 +141,10 @@ header .top_line h1 {
 .top_phone .wrapper .tab {
 	margin: 0;
 }	
+footer h2{
+		font-size: 16px;
+		margin: 5px
+	}
 }
 
 
@@ -63,7 +152,7 @@ header .top_line h1 {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+	
 }
 
 /* Extra Small Devices, Phones */
@@ -85,5 +174,9 @@ header .top_line h1 {
 @media only screen and (min-width : 1200px) {
 
 }
-@media only screen and (min-height : 1000px) and (min-width : 1900px) {
-	
+
+@media only screen and (max-width : 400px){
+	.price	{
+		float: none;
+	}
+}
